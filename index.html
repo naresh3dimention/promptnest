@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PromptNest - Discover the Best AI Tools</title>
+
+    <meta name="description"
+        content="Discover AI Tools, AI Prompts, Coding Projects and Tutorials.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="description" content="PromptNest - Discover the best AI Tools, AI Prompts, Coding Projects, Tutorials and Resources.">
+
+<meta name="keywords" content="AI Tools, ChatGPT, Claude, Gemini, AI Prompts, Coding Projects, PromptNest">
+
+<meta name="author" content="PromptNest">
+
+<meta property="og:title" content="PromptNest">
+
+<meta property="og:description" content="Explore the World's Best AI Tools.">
+
+<meta property="og:image" content="assets/images/logo-header.png">
+
+<meta property="og:type" content="website">
+
+<meta name="theme-color" content="#7C3AED">
+
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container">
+
+        <nav class="navbar">
+<a href="#" class="logo">
+    <img src="assets/images/logo-header.png" alt="PromptNest">
+</a>
+            
+            <ul class="nav-links">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">AI Tools</a></li>
+
+                <li><a href="#">Prompts</a></li>
+
+                <li><a href="#">Projects</a></li>
+
+                <li><a href="#">Tutorials</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+            <a href="#" class="btn nav-btn">
+            Get Started
+            </a>
+
+            <button id="menuToggle" class="menu-toggle">
+    ☰
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <span class="hero-badge">
+
+                🚀 India's Smart AI Learning Platform
+
+            </span>
+
+            <h1>
+
+                Discover The Best
+
+                <span>AI Tools</span>
+
+                For Creators & Developers
+
+            </h1>
+
+            <p>
+
+                Explore thousands of AI Tools, AI Prompts,
+                Coding Projects and Tutorials from one platform.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#" class="btn">
+
+                    Explore AI Tools
+
+                </a>
+
+                <a href="#" class="btn-outline">
+
+                    Browse Prompts
+
+                </a>
+
+            </div>
+
+            <div class="hero-search">
+
+                <input
+                    type="text"
+                    placeholder="🔍 Search AI Tools...">
+
+                <button>
+
+                    Search
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="assets/images/hero-ai.png"
+                alt="PromptNest AI">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========= PART 2 CONTINUES BELOW ========= -->
+ <!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h2>1000+</h2>
+                <p>AI Tools</p>
+            </div>
+
+            <div class="stat-card">
+                <h2>5000+</h2>
+                <p>AI Prompts</p>
+            </div>
+
+            <div class="stat-card">
+                <h2>500+</h2>
+                <p>Coding Projects</p>
+            </div>
+
+            <div class="stat-card">
+                <h2>200+</h2>
+                <p>Tutorials</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FEATURED AI TOOLS ================= -->
+<section class="tools" id="tools">
+
+    <div class="container">
+
+        <div class="tools-header">
+
+            <div>
+
+                <span class="section-badge">
+                    🔥 Popular AI Tools
+                </span>
+
+                <h2>Featured AI Tools</h2>
+
+                <p>
+                    Explore the world's most powerful AI tools for
+                    writing, coding, image generation, productivity
+                    and business.
+                </p>
+
+            </div>
+
+            <a href="#" class="view-all-btn">
+                View All →
+            </a>
+
+        </div>
+
+        <div class="tools-toolbar">
+
+            <input
+                type="text"
+                id="toolSearch"
+                placeholder="🔍 Search AI Tools...">
+
+            <div class="filters">
+
+                <button class="filter-btn active"
+                    data-category="all">
+                    All
+                </button>
+
+                <button class="filter-btn"
+                    data-category="chatbot">
+                    Chatbots
+                </button>
+
+                <button class="filter-btn"
+                    data-category="image">
+                    Image AI
+                </button>
+
+                <button class="filter-btn"
+                    data-category="coding">
+                    Coding
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="tools-grid" id="toolsContainer"></div>
+
+        <div class="pagination" id="pagination"></div>
+     </section>
+<!-- ================= POPULAR CATEGORIES ================= -->
+
+<section class="categories" id="categories">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>🔥 Popular Categories</h2>
+
+            <p>
+                మీకు అవసరమైన Categoryని ఎంచుకొని AI Toolsను సులభంగా కనుగొనండి.
+            </p>
+
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                🤖
+                <h3>AI Chatbots</h3>
+            </div>
+
+            <div class="category-card">
+                🎨
+                <h3>Image AI</h3>
+            </div>
+
+            <div class="category-card">
+                💻
+                <h3>Coding</h3>
+            </div>
+
+            <div class="category-card">
+                🎥
+                <h3>Video AI</h3>
+            </div>
+
+            <div class="category-card">
+                🎵
+                <h3>Audio AI</h3>
+            </div>
+
+            <div class="category-card">
+                📈
+                <h3>Productivity</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= LATEST AI PROMPTS ================= -->
+
+<section class="prompts" id="prompts">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>✨ Latest AI Prompts</h2>
+
+            <p>
+                అత్యుత్తమ ChatGPT, Claude, Gemini Prompts ను ఒకే చోట పొందండి.
+            </p>
+
+        </div>
+
+        <div class="prompt-grid">
+
+            <div class="prompt-card">
+
+                <div class="prompt-icon">📝</div>
+
+                <h3>Blog Writing</h3>
+
+                <p>ChatGPT Prompt</p>
+
+                <div class="rating">★★★★★</div>
+
+                <button class="copy-btn">
+                    Copy Prompt
+                </button>
+
+            </div>
+
+            <div class="prompt-card">
+
+                <div class="prompt-icon">💼</div>
+
+                <h3>Resume Builder</h3>
+
+                <p>Claude Prompt</p>
+
+                <div class="rating">★★★★★</div>
+
+                <button class="copy-btn">
+                    Copy Prompt
+                </button>
+
+            </div>
+
+            <div class="prompt-card">
+
+                <div class="prompt-icon">🎨</div>
+
+                <h3>Logo Design</h3>
+
+                <p>Gemini Prompt</p>
+
+                <div class="rating">★★★★★</div>
+
+                <button class="copy-btn">
+                    Copy Prompt
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CODING PROJECTS ================= -->
+
+<section class="projects" id="projects">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>💻 Coding Projects</h2>
+
+            <p>
+                Learn by building real-world HTML, CSS and JavaScript projects.
+            </p>
+
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <h3>HTML Projects</h3>
+
+                <p>
+                    Beginner to Advanced HTML practice projects.
+                </p>
+
+                <a href="#" class="btn">
+                    View Projects
+                </a>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>CSS Projects</h3>
+
+                <p>
+                    Modern responsive website design projects.
+                </p>
+
+                <a href="#" class="btn">
+                    View Projects
+                </a>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>JavaScript Projects</h3>
+
+                <p>
+                    Interactive web applications with JavaScript.
+                </p>
+
+                <a href="#" class="btn">
+                    View Projects
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========= PART 3 CONTINUES BELOW ========= -->
+ <!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter" id="newsletter">
+
+    <div class="container">
+
+        <div class="newsletter-box">
+
+            <h2>Stay Updated</h2>
+
+            <p>
+                Get the latest AI Tools, Prompts,
+                Coding Projects and Tutorials directly to your inbox.
+            </p>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email">
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer" id="contact">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h3>🚀 PromptNest</h3>
+
+                <p>
+                    Discover the best AI Tools,
+                    Prompts, Projects and Tutorials
+                    in one place.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>Quick Links</h4>
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">AI Tools</a></li>
+
+                    <li><a href="#">Prompts</a></li>
+
+                    <li><a href="#">Projects</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4>Resources</h4>
+
+                <ul>
+
+                    <li><a href="#">Tutorials</a></li>
+
+                    <li><a href="#">Blog</a></li>
+
+                    <li><a href="#">Privacy Policy</a></li>
+
+                    <li><a href="#">Terms</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4>Follow Us</h4>
+
+                <ul>
+
+                    <li><a href="#">YouTube</a></li>
+
+                    <li><a href="#">Instagram</a></li>
+
+                    <li><a href="#">LinkedIn</a></li>
+
+                    <li><a href="#">GitHub</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 PromptNest. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="data/tools/chatbots.js"></script>
+<script src="data/tools/image-ai.js"></script>
+<script src="data/tools/coding.js"></script>
+<script src="data/tools/video-ai.js"></script>
+<script src="data/tools.js"></script>
+<script src="js/script.js"></script>
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+            <img src="assets/images/logo-footer.png"
+                 alt="PromptNest"
+                 class="footer-logo">
+
+            <p>
+                Discover the world's best AI Tools,
+                Prompts, Tutorials and Coding Projects.
+            </p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">AI Tools</a></li>
+                <li><a href="#">Prompts</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+
+            <ul>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X (Twitter)</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 PromptNest. All Rights Reserved.
+    </div>
+
+</footer>
+
+</body>
+
+</html>
